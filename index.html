@@ -13,7 +13,7 @@
 	<body>
 		<div class="page position">
 			<audio id="audio" preload>
-				<source src="X-Ray Dog - Flight Of Dreams.mp3"></source>
+				<source src="yingyue.mp3"></source>
 			</audio>
 			<div class="text position">
 				<img src="img/text.png"/>
@@ -31,11 +31,11 @@
 		var playBtm = document.getElementById('playBtm');
 		var audio = document.getElementById('audio')
 		
-		playBtm.onclick = function(){
+		playBtm.addEventListener('touchstart',function(){
 			
 			audio.play();
 			
-		}
+		})
 		
 		
 	</script>
